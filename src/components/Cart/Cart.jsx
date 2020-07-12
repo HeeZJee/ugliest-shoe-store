@@ -19,6 +19,7 @@ function Cart() {
         <img src={primaryImageSrc} alt={alt} title={title} />
         <h4>{title}</h4>
         <span>${price}</span>
+        <hr />
       </li>)
     )}
   </ul>);
